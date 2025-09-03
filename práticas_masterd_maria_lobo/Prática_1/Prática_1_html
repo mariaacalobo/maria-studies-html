@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+    
+    <head>
+        <title>EXO</title>
+    
+        <meta charset="UTF-8">
+        <meta name="description" content="Página pessoal do John Doe">
+        <meta name="Author" content="Maria Lobo">
+
+        <style>
+
+            *{
+                text-align:center;
+            }
+
+            h1{
+                color:rgb(91, 91, 255);
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <h1>Página pessoal do John Doe</h1>
+
+        <img alt="john doe" src="john_doe.jpg">
+        
+        <hr>
+
+        <p><strong>"John Doe"</strong> é um pseudónimo coletivo que é usado quando o nome verdadeiro de uma pessoa é desconhecido ou é intencionalmente
+            ocultado.</p>
+
+        <p>Em segundo lugar, esses nomes também são frequentemente usados para se referir a um hipotético
+            "everyman" (homem comum) em outros contextos.
+        </p>
+
+        <a href="https://en.wikipedia.org/wiki/John_Doe"><p>Mais sobre John Doe</p></a>
+        <a href="mailto:johndoe@mail.pt"><p>Envie um e-mail a John Doe</p></a>
+
+    </body>
+
+</html>

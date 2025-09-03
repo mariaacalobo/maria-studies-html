@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+    
+    <head>
+        <title>Preços dos quartos do hotel</title>
+    
+        <meta charset="UTF-8">
+        <meta name="description" content="Página pessoal do John Doe">
+        <meta name="Author" content="Maria Lobo">
+
+    
+
+        </head>
+
+        <body>
+            <h2><strong>Preços dos quartos do hotel</strong></h2>
+
+            <table id="table" cellspacing="10px" cellpadding="5px" border="1">
+
+                <td colspan="3" bgcolor="#819FF7" align="center"><strong>Preços por tipo de quarto</strong></td>
+             
+
+              <tr bgcolor="#81F7D8">
+                <td>Nome do quarto</td>
+                <td>Capacidade</td>
+                <td>Preço</td>
+              </tr>
+
+              <tr>
+                <td bgcolor="#D8D8D8">Lisboa</td>
+                <td>1 pax</td>
+                <td>30,00 €</td>
+              </tr>
+
+              <tr>
+                <td bgcolor="#D8D8D8">Porto</td>
+                <td>2 pax</td>
+                <td>40,00 €</td>
+              </tr>
+
+              <tr>
+                <td bgcolor="#D8D8D8">Coimbra</td>
+                <td>3 pax</td>
+                <td rowspan="2" bgcolor="#F5BCA9">50,00 €</td>
+              </tr>
+
+              <tr>
+                <td bgcolor="#D8D8D8">Faro</td>
+                <td>4 pax</td>
+              </tr>
+
+
+
+            </table>
+
+        </body>
+</html>

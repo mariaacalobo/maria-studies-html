@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+<head>
+    <title>estilos de texto</title>
+
+    <!--metatags-->
+
+    <meta charset="UTF-8">
+    <meta name="description" content="estilos de texto">
+    <meta name="autor" content="Maria Lobo">
+
+    <style>
+        h1{
+            text-align: center;
+            color: white;
+            background-color: rgb(219,44,99)
+        }
+
+        #titulo_2{
+            text-align: right;
+            color: #3950a3;
+            font-family: verdana;
+            font-size: 30px;
+        }
+
+        hr{
+            width: 50%;
+            text-align: center;
+        }
+
+        .paragrafo_1{
+            direction: ltr;
+            font-size: 2em;
+            letter-spacing: 3px;
+        }
+
+        #paragrafo_2{
+            font-style: italic;
+            direction: rtl;
+            font-size: 4em;
+            word-spacing: 20px;
+        }
+
+        a {
+            text-decoration: overline;
+        }
+
+        .paragrafo_3 {
+            text-indent: 50px;
+        }
+
+        #frase_rasurada {
+            text-decoration:line-through;
+        }
+
+        #frase_bold{
+            font-weight: bold;
+        }
+
+        #outrobold{
+            font-weight: bold;
+        }
+
+        #texto_uppercase{
+            text-transform: uppercase;
+            background-color: yellow;
+        }
+
+        #texto_lowercase{
+            text-transform: lowercase;
+            color: #7a39a3;
+        }
+
+        #texto_capitalize{
+            text-transform: capitalize;
+            font-family: arial;
+            font-size: 24px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Eu sou um título centrado de cor banca, com background vermelho.</h1>
+
+    <h2 id="titulo_2">E eu sou um título azul, alinhado à direita!</h2>
+
+        <hr>
+
+    <p class="paragrafo_1">Eu sou o parágrafo 1, estou escrito da esquerda para a direita, tenho tamanho de letr 2 em, e as minhas letras estão espaçadas de 3px.</p>
+
+    <p id="paragrafo_2">E eu sou o parágrafo 2, estou escrito da direita para a esquerda em italic, tenho tamanho de letra 4 em, e as minhas palavras estão espaçadas de 20px.</p>
+
+        <hr>
+
+    <p id="frase_bold">O texto abaixo pode ser copiado na página <a href="https://www.lipsum.com/feed/html">Lipsum</a>. Se virem bem, este link não está sublinhado. Tem uma linha por cima...</p>
+
+    <p>Algumas frase do texto estão rasuradas e outras estão em bold. A 1.ª frase tem indexação de 50px.
+        Todas as outras pertencem à mesma classe do parágrafo 1.
+    </p>
+
+    <p class="paragrafo_3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla est
+magna, posuere ut quam ut, auctor facilisis turpis.</p>
+
+    <p id="frase_rasurada">Donec id ex ac felis auctor feugiat quis vitae ex. In hac habitasse platea dictumst.</p>
+
+    <p>Nunc molestie eros placerat dolor varius, quis
+        sagittis ipsum molestie. Praesent vulptate felis
+        sagittis auctor. Morbi cenas e tal e coiso.
+    </p>
+
+    <p id="outrobold">Morbi posuere, auge ut sodules dapibus, libero eros fermentum lugula, in feugint felis dui vitae sem. Alguam vulptuante risus a est rhoneus faucibus.</p>
+
+        <hr>
+    <p>Para acabar vamos:</p>
+
+    <p id="texto_uppercase">pôr esta frase toda em maiúsculas (com fundo amarelo)...</p>
+
+    <p id="texto_lowercase">esta em minúsculas (com cor de letra roxa)...</p>
+
+    <p id="texto_capitalize">E por fim, as primeiras letras desta frase devem ser maiúsculas (com fonte arial de tamanho 24px).</p>
+</body>
+
+</html>

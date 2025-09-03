@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title>Layout CSS Grid</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Layout CSS Grid">
+    <meta name="author" content="Maria Lobo">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/d90ca527ec.js" crossorigin="anonymous"></script>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+        .col-1 {
+            width: 8.33%;
+        }
+        .col-2 {
+            width: 16.66%;
+        }
+        .col-3 {
+            width: 25%;
+        }
+        .col-4 {
+            width: 33.33%;
+        }
+        .col-5 {
+            width: 41.66%;
+        }
+        .col-6 {
+            width: 50%;
+        }
+        .col-7 {
+            width: 58.33%;
+        }
+        .col-8 {
+            width: 66.66%;
+        }
+        .col-9 {
+            width: 75%;
+        }
+        .col-10 {
+            width: 83.33%;
+        }
+        .col-11 {
+            width: 91.66%;
+        }
+        .col-12 {
+            width: 100%;
+        }
+
+        [class*="col-"] {
+
+            float: left;
+        }
+
+        .row.after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        body {
+            background-color: #EEE7D4;
+        }
+
+        .header {
+            background-color: #83BDBE;
+            color: #223240;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+        }
+
+        .topnav{
+
+            background-color: #223240;
+            padding: 10px;
+            font-size: 24px;
+
+        }
+
+        #float-right{
+            float: right;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+        }
+
+        li {
+            display: inline;
+        }
+
+        li a{
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #EEE7D4;
+        }
+
+        a:hover {
+            background-color: #D9895B;
+        }
+
+        
+
+        .coluna4{
+            padding: 5px;
+        }
+
+        .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+        #section1{
+            margin-top:20px;
+            
+        }
+        #section2{
+            background-color: white ;
+            margin-top:20px;
+            margin-bottom: 20px;
+        }
+
+        .footer{
+            background-color: #223240;
+            color:#EEE7D4;
+            padding: 10px;
+        }
+
+        .coluna3{
+            padding: 10px;
+        }
+
+        .coluna3-border {
+            border-left: 1px solid #EEE7D4;
+            padding: 10px;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+
+        <img id="image-header" src="pictures/bg-head.jpg" alt="imagem de cabeçalho" width="600">
+
+        <h1>O meu website</h1>
+        <p> Construído com CSS Grid e com comportamento responsivo</p>
+
+    </div>
+
+
+
+
+    <div class="topnav">
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i></a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Contactos</a></li>
+            <li id="float-right"><a href="#"><i class="fas fa-search"></i></a></li>
+        </ul>
+    </div>
+
+    
+
+    <div class="row" id="section1">
+
+        <div class="coluna4 col-4">
+
+            <img src="pictures/vacas.avif" width="100%">
+
+        </div>
+
+        <div class="coluna8 col-8">
+            <h2>Título 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <a href="#">Saiba +</a>
+        </div>
+</div>
+    
+
+
+
+    <div class="row" id="section2">
+        <div class="coluna4 col-4">
+
+            <h2>Título 3.1</h2>
+
+            <img id="vacas-2" src="pictures/vacas.avif" alt="imagem-vacas" width="100%">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+            <a href="#">Saiba mais</a>
+
+        </div>
+
+            <div class="coluna4 col-4">
+    
+                <h2>Título 3.2</h2>
+    
+                <img id="vacas-2" src="pictures/vacas.avif" alt="imagem-vacas" width="100%">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+    
+                <a href="#">Saiba mais</a>
+    
+            </div>
+
+            <div class="coluna4 col-4">
+    
+                <h2>Título 3.3</h2>
+    
+                <img id="vacas-2" src="pictures/vacas.avif" alt="imagem-vacas" width="100%">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+    
+                <a href="#">Saiba mais</a>
+    
+            </div>
+    </div>
+
+
+    <div class="row footer">
+
+        <div class="coluna3 col-3">
+            <h3>Footer 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+
+        </div>
+
+        <div class="coluna3-border col-3">
+            <h3>Footer 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+
+        </div>
+
+        <div class="coluna3-border col-3">
+            <h3>Footer 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+
+        </div>
+
+        <div class="coluna3-border col-3">
+            <h3>Footer 4</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+
+        </div>
+     
+    </div>
+
+</body>

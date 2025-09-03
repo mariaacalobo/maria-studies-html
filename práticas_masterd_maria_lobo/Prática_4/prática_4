@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Prática 4 Form</title>
+    
+    
+        <meta charset="UTF-8">
+        <meta name="description" content="Formulário Prática 4">
+        <meta name="Author" content="Maria Lobo">
+    </head>
+
+    <body>
+        <h1>Formulário</h1>
+
+        <hr>
+
+        <form id="formulario" autocomplete="off">
+            <label>Nome </label><input id="campo-nome" type="text"><br><br>
+
+            <label>Introduza a sua passoword </label><input id="password" type="password"><br><br>
+
+            <label>Data de Nascimento </label><input id="date" type="date" name="data nascimento"><br><br>
+
+            <label>Telefone </label><input id="Telefone" type="tel" name="telefone" placeholder="123-456-789" pattern="[0-9][0-9][0-9]-[0-9][0-9][0-9]-[0-9][0-9][0-9]"><br><br>
+
+            <label>E-mail </label><input id="Email" type="email"><br><br>
+
+            <label>Género </label><br>
+            <input id="btn-masc" type="radio" value="male" name="gender">Masculino <br><input id="btn-fem" type="radio" value="female" name="gender">Feminino<br><br>
+
+            Nacionalidade<br>
+            <select name="select">
+                <option value="nacionalidade">Portuguesa</option>
+                <option value="nacionalidade">Outra</option>
+            </select> <br><br>
+
+            <label>Escolheu este curso por motivos profissionais?</label><br>
+            <input id="box_1" type="checkbox" value="sim">SIM<br>
+            <input id="box_2" type="checkbox" value="não">NÃO<br><br>
+
+            <label>Descreva as suas motivações para frequentar este curso:</label><br><textarea class="msg" cols="50" rows="20"></textarea><br>
+
+            <label>Numa escala de 1 a 5 como avalia este curso?</label><br>
+            <input id="range" type="range" min="1" max="5"><br><br>
+
+            <hr>
+
+          <button type="submit"> Enviar formulário
+          </button>
+
+          <button type="reset">Apagar formulário
+        </button>
+
+        </form>
+    </body>
+</html>

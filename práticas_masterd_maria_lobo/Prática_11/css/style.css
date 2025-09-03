@@ -1,0 +1,166 @@
+header{
+    background-color: #1D1D1D;
+    text-align: center;
+
+}
+
+h1, h2, h3 {
+    color: rgb(177, 0, 0);
+
+}
+
+h1{
+    font-size:56px;
+}
+
+h3{
+    font-size:30px;
+    text-decoration: underline;
+    }
+
+p{
+    font-size:36px;
+}
+
+
+
+nav, aside, footer{
+    text-align: center;
+    font-size:30px;
+}
+
+nav, aside {
+    background-color:rgb(177, 0, 0);
+    
+}
+
+footer{
+    text-align:center;
+    background-color: black;
+    
+}
+
+#picJD{
+    width:500px;
+
+}
+
+.nomepagina{
+    font-size:44px;
+    text-align: right;
+}
+
+.paragrafo2{
+    background-color:#D7D7D7;
+}
+
+.paragrafo1, .paragrafo2{
+
+    max-width: 33.3%;
+    display: inline-block;
+
+}
+
+.quem-image{
+    display: inline-block;
+}
+
+span#JohnDoe_text{
+    font-weight: bold;
+}
+
+h1::before, h1::after{
+    content:". . .";
+    color: white;
+}
+
+nav a, aside a{
+    color:white;
+}
+
+a:link, a:visited, a:hover{
+    color: white;
+    text-decoration:none;
+}
+
+a:hover{
+    font-size:36px;
+}
+
+
+div.gostos{
+    background-color: #D7D7D7;
+}
+
+
+h4{
+    font-family:"Lucida Console", "Courier New", monospace;
+    color: rgb(197,34,51);
+    font-size:2em;
+    letter-spacing: 2px;
+    text-indent: 30px;
+}
+
+#pic-book-JD, #pic-plane-JD{
+    width:200px;
+}
+
+
+a.botao:link, a.botao:visited, a.botao:hover {
+    background-color: white;
+    color:black;
+    text-decoration:none;
+    font-size:42px;
+
+}
+
+a.botao:hover{
+    background-color: rgb(197,34,51);
+    color:white;
+}
+
+article{
+    background-image: linear-gradient(to right, #1D1D1D, #C52233, #ffffff);
+
+}
+
+aside{
+    width:100%;
+    height: 200px;
+    background-color: #262626;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201123/pngtree-black-background-template-vol-1-image_499096.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.mais-john{
+    text-align:center;
+    
+}
+
+a.link1{
+    font-size:60px;
+    color: white;
+    border: 2px solid #C52233;
+    text-decoration:none;
+}
+
+a.link1:hover{
+    text-decoration: underline;
+}
+
+a.menu{
+    border-left:6px solid white;
+}
+
+
+
+#ler, #viajar {
+    width: 45%;
+    border: 1px dotted white;
+    display:inline-block;
+}
+
+.navlinks{
+    border-left: 6px solid white;
+}

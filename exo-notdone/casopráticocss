@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>EXO</title>
+    
+
+    
+    
+        <meta charset="UTF-8">
+        <meta name="description" content="Os EXO são um grupo da Coreia do Sul, formado em 2012 pela SM Entertainment.
+        O grupo começou com 12 membros, estando divididos entre EXO-M e EXO-K, unidades chinesas e coreanas, respectivamente.
+        Dos EXO-M faziam parte Xiumin, Lay, Chen, Tao, Luhan e Kris, e dos EXO-K, Suho, Baekhyun, Chanyeol, D.O, Kai e Sehun.">
+        <meta name="keywords" content ="exo, exo k, exo m, sm, sm entertainment, xiumin, kim minseok, lay, zhang yixing, chen, kim jongdae, 
+        tao, huang zitao, luhan, kris wu, suho, kim junmyeon, baekhyun, byun baekhyun, chanyeol, park chanyeol, d.o, do kyungsoo, kai, kim jongin, sehun, oh sehun">
+        <meta name="Author" content="Maria Lobo">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+        <script src="https://kit.fontawesome.com/d90ca527ec.js" crossorigin="anonymous"></script>
+
+        <style>
+
+
+            *{
+                font-family: Helvetica, sans-serif;
+                color: rgb(36, 3, 3);
+                box-sizing: border-box;
+        
+            }
+
+            h1 {
+    
+                font-family: "Alien Cyborg";
+                font-size: 10vw;
+                color: rgb(36, 3, 3);
+                text-align: center;
+                
+            }
+
+            h3 {
+                color: rgb(36, 3, 3);
+                text-align: center;
+            }
+
+    
+            h1 + h3 {
+                margin-top: -60px;
+            }
+
+
+            .navbar {
+                overflow:hidden;
+                background-color:rgb(36, 3, 3);
+                
+            
+            }
+
+            .navbar a{
+                float: left;
+                font-size: 16px;
+                color: white;
+                font-weight:bold;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration:none;
+            }
+
+            .dropdown {
+                float: left;
+                overflow: hidden;
+            }
+
+            .dropbutton {
+                float: left;
+            }
+
+            .dropdown .dropbutton {
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                font-weight:bold;
+                padding: 14px 16px;
+                background-color: inherit;
+                margin: 0;
+
+            }
+
+            .navbar a:hover, .dropdown:hover .dropbutton {
+                color: rgb(212, 116, 116);
+            }
+
+
+            .dropbutton-content{
+                display:none;
+                position: absolute;
+                background-color:rgb(36, 3, 3);
+                margin-top: 46px;
+                padding: 14px 16px;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+                z-index: 1;
+        
+
+            
+            }
+
+            .dropbutton-content a{
+                float: none;
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover {
+                color: rgb(212, 116, 116);
+        
+            }
+
+            .dropdown:hover .dropbutton-content {
+                display: block;
+            }
+
+            .fa-solid.fa-magnifying-glass {
+                color: white;
+                float: right;
+                padding: 14px 16px;
+
+            }
+
+            .fa-solid.fa-magnifying-glass:hover{
+                color:rgb(212, 116, 116);
+            
+            }
+
+            .homepage-1, .homepage-3 {
+
+                max-width:1500px;
+                max-height:750px;
+                background-color:white;
+                padding-left: 100px;
+                padding-right: 50px;
+                padding-bottom: 450px;
+                
+
+            }
+
+
+            .homepage-2 {
+                max-width: 1500px;
+                max-height: 750px;
+                background-color: rgb(36, 3, 3);
+                padding-left: 100px;
+                padding-right: 50px;
+                padding-bottom: 450px;
+                
+            }
+
+            
+        
+            .exogroup {
+            margin: auto;
+            float: left;
+            width: 50%;
+            padding-right: 20px;
+            
+        
+            }
+
+            .texto-exo {
+                margin: auto;
+                float: left;
+                width: 50%;
+                padding-right: 10px;
+                padding-top: 50px;
+                
+            
+            }
+            .bioexo {
+
+                line-height: 20px;
+            }
+
+            .Discografia {
+                margin: auto;
+            }
+
+            .homepage-2 p{
+                text-align: center;
+                color: white;
+            }
+
+
+            .disco {
+                color: white;
+
+            }
+
+            .album-1 {
+                align-items: center;
+                float: left;
+                width: 33,3333%;
+                text-align: center;
+                margin: auto;
+                padding: 30px;
+                font-weight: bold;}
+
+            .album-2 {
+                align-items: center;
+                float: left;
+                width: 33,3333%;
+                text-align: center;
+                margin: auto;
+                padding: 30px;
+                font-weight:bold;
+            }
+
+            .album-3 {
+                align-items: center;
+                float: left;
+                width: 33,3333%;
+                text-align: center;
+                margin: auto;
+                padding: 30px;
+                font-weight:bold;
+            }
+        
+
+
+            .social-media {
+                float:left;
+                width: 50%;
+                padding-top: 20px;
+                
+            }
+
+            .mensagem {
+                float: left;
+                width: 50%;
+                padding-top: 20px;
+              
+            }
+
+
+            .footer {
+                text-align: center;
+                font-weight: bold;
+            }
+
+            .fa-brands.fa-facebook .fa-brands.fa-youtube .fa-brands.fa-square-x-twitter {
+                text-align: center;
+                padding: 5px;
+                float: left;
+            }
+
+        
+
+
+        </style>
+
+
+
+</html>
+
+
+    <div class="navbar">
+
+        <a href="casopráticocss">HOME</a>
+
+    <div class="dropdown">
+
+            <button class="dropbutton">GRUPO <i class="fa-solid fa-caret-down"></i>
+            </button>
+
+                <div class="dropbutton-content">
+                  
+                    <a href="#">EXO</a>
+
+                    <a href="#">MEMBROS</a>
+
+                    <a href="#">ESPETÁCULOS</a>
+                </div>
+        </div>
+
+            <a href="#">SOBRE</a>
+            
+            <a href="#">CONTACTOS</a>
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+         
+    </div>
+
+    <div class="homepage-1">
+
+
+        <h1>EXO</h1>
+        <h3>Conhece o grupo!</h3>
+
+        <img class="exogroup" src="https://6.soompi.io/wp-content/uploads/image/940964cc78a04019b8a64dd0e523442b.jpeg?s=900x600&e=t"
+        style="max-width:100%; height:auto;" alt="Atuais membros dos exo. Em cima, da esquerda para a direita, Lay, D.O, Xiumin, Baekhyun e Chen. Em baixo, da esquerda para a direita, Chanyeol, Suho, Kai e Sehun."
+        width="500px" height="auto">
+
+        <div class="texto-exo">
+
+            <p class="bioexo">Os EXO são um grupo da Coreia do Sul, formado em 2012 pela SM Entertainment.
+            O grupo começou com 12 membros, estando divididos entre EXO-M e EXO-K, unidades chinesas e coreanas, respectivamente.
+            Dos EXO-M faziam parte Xiumin, Lay, Chen, Tao, Luhan e Kris, e dos EXO-K, Suho, Baekhyun, Chanyeol, D.O, Kai e Sehun.</p>
+
+            <p class="bioexo">Em 2014, Kris e Luhan abandonaram o grupo, seguidos de Tao, em 2015.</p>
+
+            <p class="bioexo">Os EXO já ganharam vários prémios e são uma das bandas mais emblemáticas da indústria, tendo sido o primeiro grupo a vender mais 
+            de um milhão de álbuns físicos, em 2013, na era do digital.</p>
+
+            </div>
+    </div>
+
+
+
+    
+    <div class="homepage-2">
+        <div class="Discografia">
+
+            <h1 class="disco">Discografia</h1>
+            <h3 class="disco">Conhece os últimos sons dos EXO!</h3>
+
+            <p>Clica em cima das imagens para ouvires</p>
+
+            
+
+            <div class="album-1">
+
+                <a href="https://open.spotify.com/intl-pt/album/4qMcBYh4ZlwDeb7vfgZO61?si=KXVj0Kp9SwqKKueuiTKT1g" target="_blank" class="exist"><img src="https://i.scdn.co/image/ab67616d0000b2737657059390a7871c158fd966"
+                    style="max-width:100%; height:auto;" alt="capa do álbum EXIST" width="300px" height="auto"></a>
+
+             <p>EXIST</p>
+             <p>(2023)</p>
+
+            </div>
+
+            <div class="album-2">
+
+                <a href="https://open.spotify.com/intl-pt/album/7Jw48lPmYuYftfQv5LmAzI?si=5eac9843d28c4577" target="_blank" class="dontfight"><img src="https://static.fnac-static.com/multimedia/Images/FR/NR/cc/a6/ce/13543116/1540-1/tsp20210629105217/Don-t-Fight-The-Feeling-Photo-Book-Version-2.jpg"
+                    style="max-width:100%; height:auto;" alt="capa do álbum Don't Fight the Feeling" width="300px" height="auto"></a>
+
+                <p>DON'T FIGHT THE FEELING </p>
+                <p>(2021)</p>
+            </div>
+
+            <div class="album-3">
+
+            <a href="https://open.spotify.com/intl-pt/album/7uNyF6MKaVHi5TJqIiNobm?si=c899768bd5274c31" target="_blank" class="obsession"><img src="https://upload.wikimedia.org/wikipedia/pt/1/11/Obsession_-_cover.jpg"
+                style="max-width:100%; height:auto;" alt="capa do álbum Obsession" width="300px" height="auto"></a>
+
+            <p>OBSESSION</p>
+            <p>(2019)</p>
+
+            </div>
+        </div>
+    </div>
+
+
+<div class="homepage-3">
+    <div class="Contactos">
+
+        <h1>Contactos</h1>
+        <h3>Envia uma mensagem aos EXO</h3>
+
+        <div class="social-media">
+            <p><i class="fa-solid fa-location-dot"> </i> Seoul, Coreia do Sul</p>
+            <p><i class="fa-solid fa-at"> </i> E-mail: exoexo@xxx.com</p>
+        </div>
+        
+    
+        <div class="mensagem"> 
+
+            <form id="formulario" autocomplete="off">
+                <label>Nome: </label><input class="campo-nome" type="text"><br>
+                <label>E-mail: </label><input class="campo-email" type="text"><br>
+                <label>Mensagem: </label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
+                <input class="btn-submit" type="submit" value="Enviar">
+
+            </form>
+
+
+        </div>
+
+        
+
+    </div>
+</div>
+
+<foooter>
+
+    <div class="footer">
+
+    <a target="_blank" class="icons" href="https://www.facebook.com/weareoneEXO/"><i class="fa-brands fa-facebook"></i></a>
+    <a target="_blank" class="icons" href="https://x.com/weareoneEXO?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-square-x-twitter"></i></a>
+    <a target="_blank" class="icons" href="https://www.youtube.com/channel/UCzCedBCSSltI1TFd3bKyN6g"><i class="fa-brands fa-youtube"></i></a>
+
+    <p>Powered by <i>Maria Lobo</i></p>
+    </div>
+    
+</foooter>

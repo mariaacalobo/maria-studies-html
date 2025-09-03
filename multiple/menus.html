@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+    <head>
+        <title>menus</title>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="index">
+        <meta name="author" content="maria lobo">
+
+        <script src="https://kit.fontawesome.com/d90ca527ec.js" crossorigin="anonymous"></script>
+
+        <style>
+
+            .navbar {
+                overflow: hidden;
+                background-color: #4169E1;
+
+            }
+
+            .navbar a {
+                float: left;
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            .dropdown .dropbtn {
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                padding:14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }
+         
+            .navbar a:hover, .dropdown:hover .dropbtn{
+                background-color:#7FFFD4;
+            }
+
+            .dropdown.content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16pc 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a{
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            
+            .dropwdown:hover .dropwdown-content{
+                display:  block;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="menu-inline">
+            <a href ="#"> Home</a>
+
+            <div class="dropdown">
+               <button class="droptbn">Serviços<i class="fa-solid fa-caret-down"></i></button>
+
+               <div class="dropdown-content">
+
+                <a href="https://www.masterd.pt"> Master D</a>
+
+                <a href="https://www.w3.org">W3C</a>
+
+               </div>
+            </div>
+            
+            <a href="#news">Sobre</a>
+            <a href="#news">Contactos</a>
+        </div>
+<hr>
+
+    </body>
+
+
+</html>

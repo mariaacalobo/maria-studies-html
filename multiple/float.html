@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+
+
+<head>
+        <title>icons</title>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="index">
+        <meta name="author" content="maria lobo">
+
+        <script src="https://kit.fontawesome.com/d132031da6.js"
+crossorigin="anonymous"></script>
+
+<style>
+
+    * {
+        box-sizing: border-box;
+    }
+
+    header{
+        background-color: #42517a;
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px;
+    
+    }
+
+    .nav {
+        background-color:#1c243a;
+        color: white;
+
+
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px;
+    }
+li{
+    display: inline;
+  
+   
+}
+
+li a {
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+
+}
+
+#selected{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#coluna-1 {
+    float: left;
+    background-color: rgb(26, 100, 26);
+    width: 25%;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+
+}
+
+#coluna-2 {
+    float: left;
+    background-color: white;
+    width: 50%;
+    height: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bolder;
+
+}
+
+#coluna-3 {
+    float: left;
+    background-color:rgb(26, 100, 26);
+    width: 25%;
+    height: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+
+}
+
+article:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+@media (max-width:600px) {
+    nav, article {
+        width: 100%;
+        
+    }
+
+}
+
+#float-right{
+    float: right;
+}
+
+footer {
+    background-color: #010a20;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+    <img id="img1" src="vectors.jpg" alt="pontos de interrogação">
+
+    <h1>O meu primeiro layout</h1>
+
+</header>
+
+<div class="nav">
+
+    <nav>
+        <ul>
+            <li id="selected"><a id="selected" href="#">Home</a></li>
+            <li><a href="https://www.masterd.pt">Master D</a></li>
+            <li><a href="https://www.google.pt">Google</a></li>
+            <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+            <li><a href="https://www.w3.org/">W3C</a></li>
+            <li id="float‐right"><a href=""> <i class="fas fa‐
+                search"></a></i><li>
+
+
+        </ul>
+    </div>
+
+    <article>
+        
+    <p id="coluna-1">Coluna 1 - ocupo 25% da largura total</p>
+
+    <p id="coluna-2"> Coluna 2 - ocupo 50% da largura total</p>
+
+    <p id="coluna-3"> Coluna 2 - ocupo 50% da largura total</p>
+
+
+    </article>
+
+
+</section>
+
+<footer>
+    <p> Isto é um footer</p>
+</footer>
+
+
+</body>
+</html>

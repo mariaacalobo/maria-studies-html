@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title> cores e bordas</title>
+
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Cores e Bordas">
+    <meta name="Author" content="Maria Lobo">
+
+<style>
+    .caixa1{
+        width: 100%;
+        height: 300px;
+        background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)
+    }
+
+    #meu-paragrafo{
+        text-align:center;
+        color:white;
+        font-family: arial;
+        font-size: 50px;
+        padding-top: 100px;
+
+    }
+</style>
+
+</head>
+
+<body>
+
+<div class="caixa1">
+
+    <p id="meu-paragrafo"> Vai ficar tudo bem!</p>
+
+</div>
+
+</body>
+</html>

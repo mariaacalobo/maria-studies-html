@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt">
+    
+    <head>
+        <title>John Doe</title>
+    
+        <meta charset="UTF-8">
+        <meta name="description" content="Página pessoal do John Doe">
+        <meta name="Author" content="Maria Lobo">
+
+        <style>
+
+            header{
+                height:260px;
+                background-color:rgb(26, 23, 23);
+                text-align: center;
+
+            }
+
+            h1{
+                color: rgb(177, 0, 0);
+
+            }
+
+            h1::before, h1::after{
+                content:". . .";
+                color: white;
+            }
+
+            nav, aside {
+                background-color:rgb(177, 0, 0);
+                text-align: center;
+                
+            }
+
+            nav a, aside a{
+                color:white;
+            }
+
+            a:link, a:visited, a:hover{
+                color: white;
+                text-decoration:none;
+            }
+
+            a:hover{
+                font-size:36px;
+            }
+
+            h2{
+                color:rgb(177, 0, 0);
+                text-align: right;
+            }
+
+            h3{
+                color: rgb(177, 0, 0);
+                text-decoration: underline;
+            }
+
+            #p-2{
+                background-color: lightgrey;
+            }
+
+            footer{
+                text-align:center;
+                background-color: black;
+                
+            }
+
+            footer a{
+                color: white;
+            }
+           
+
+        </style>
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1>Página pessoal do John Doe</h1>
+
+        <img alt="john doe" src="pictures/john_doe.jpg" height="200px">
+
+    </header>
+        
+        <nav>
+            <a href="Prática_5_html">Home</a> |
+            <a href="sobre_johndoe.html">Sobre mim</a> |
+            <a href="contactos_johndoe.html">Contacto</a> |
+            
+        </nav>
+
+        <article>
+            <h2>Homepage</h2>
+        </article>
+
+        <section>
+
+            <h3>Quem é John Doe?</h3>
+
+            <p id="p-1"><strong>"John Doe"</strong> é um pseudónimo coletivo que é usado quando o nome verdadeiro de uma pessoa é desconhecido ou é intencionalmente
+                ocultado.</p>
+
+            <p id="p-2">Em segundo lugar, esses nomes também são frequentemente usados para se referir a um hipotético
+                    "everyman" (homem comum) em outros contextos.
+            </p>
+        
+        </section>
+
+        <aside>
+            <a href="https://en.wikipedia.org/wiki/John_Doe" target="_blank"><p>Mais sobre John Doe</p></a>
+        </aside>
+
+        <hr>
+
+        <footer>
+            <a href="mailto:johndoe@mail.pt"><p>Envie um e-mail a John Doe</p></a>
+        </footer>
+
+        
+
+    </body>
+
+</html>

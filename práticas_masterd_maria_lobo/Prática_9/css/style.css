@@ -1,0 +1,126 @@
+header{
+    background-color: #1D1D1D;
+    text-align: center;
+
+}
+
+h1, h2, h3 {
+    color: rgb(177, 0, 0);
+
+}
+
+h1{
+    font-size:56px;
+}
+
+h3{
+    font-size:30px;
+    text-decoration: underline;
+    }
+
+p{
+    font-size:36px;
+}
+
+
+
+nav, aside, footer{
+    text-align: center;
+    font-size:30px;
+}
+
+nav, aside {
+    background-color:rgb(177, 0, 0);
+    
+}
+
+footer{
+    text-align:center;
+    background-color: black;
+    
+}
+
+#picJD{
+    width:500px;
+
+}
+
+.nomepagina{
+    font-size:44px;
+    text-align: right;
+}
+
+.paragrafo2{
+    background-color:#D7D7D7;
+}
+
+span#JohnDoe_text{
+    font-weight: bold;
+}
+
+h1::before, h1::after{
+    content:". . .";
+    color: white;
+}
+
+nav a, aside a{
+    color:white;
+}
+
+a:link, a:visited, a:hover{
+    color: white;
+    text-decoration:none;
+}
+
+a:hover{
+    font-size:36px;
+}
+
+div.gostos{
+    background-color: rgb(25, 134, 104);
+}
+
+#tit_gosto{
+    font-family:"Lucida Console", "Courier New", monospace;
+    text-decoration:none;
+    color: white;
+    font-size:4em;
+    text-transform:uppercase;
+    text-align:center;
+}
+
+h4{
+    font-family:"Lucida Console", "Courier New", monospace;
+    color: rgb(197,34,51);
+    font-size:2em;
+    letter-spacing: 2px;
+    text-indent: 30px;
+}
+
+#pic-book-JD, #pic-plane-JD{
+    width:200px;
+}
+
+.preferidos{
+    direction: rtl;
+    text-decoration:underline;
+
+}
+
+.mais_sobre{
+    text-align: center;
+    font-style: italic;
+}
+
+a.botao:link, a.botao:visited, a.botao:hover {
+    background-color: white;
+    color:black;
+    text-decoration:none;
+    font-size:42px;
+
+}
+
+a.botao:hover{
+    background-color: rgb(197,34,51);
+    color:white;
+}
